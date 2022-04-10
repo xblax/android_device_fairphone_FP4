@@ -200,6 +200,9 @@ vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
 
+# Stock Camera App
+-system/priv-app/FPCamera/FPCamera.apk
+
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
