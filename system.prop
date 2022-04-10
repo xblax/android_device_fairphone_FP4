@@ -2,7 +2,8 @@
 persist.bluetooth.disableinbandringing=false
 
 # Camera
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.fp.camera,foundation.e.camera
+# Disabled whitelist for access to aux cameras
+# vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.fp.camera,foundation.e.camera
 
 # Display 
 debug.sf.enable_hwc_vds=1
