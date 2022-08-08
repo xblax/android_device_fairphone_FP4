@@ -1,0 +1,5 @@
+#unix_socket_connect(cameraserver, property, init);
+#allow cameraserver property_socket:sock_file write;
+#allow cameraserver init:unix_stream_socket connectto;
+#allow cameraserver debug_prop:property_service set;
+set_prop(cameraserver, debug_prop)
