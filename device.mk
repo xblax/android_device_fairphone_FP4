@@ -195,7 +195,8 @@ PRODUCT_PACKAGES += \
 
 # Stock Camera App
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/privapp-permissions-com.fp.camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.fp.camera.xml
+    $(LOCAL_PATH)/configs/privapp-permissions-com.fp.camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.fp.camera.xml \
+    $(LOCAL_PATH)/configs/privapp-permissions-com.tct.iris.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.tct.iris.xml
 
 # Component overrides
 PRODUCT_COPY_FILES += \
