@@ -548,6 +548,7 @@ vendor/etc/izat.conf
 vendor/etc/lowi.conf
 vendor/etc/sap.conf
 vendor/etc/xtwifi.conf
+vendor/etc/gnss_antenna_info.conf
 
 # Iris
 vendor/bin/hw/vendor.pixelworks.hardware.display.iris-service
@@ -776,6 +777,7 @@ vendor/etc/st21nfc_conf.txt
 # NFC (Firmware)
 vendor/firmware/st21nfc_fw.bin
 vendor/lib/libpn553_fw.so
+vendor/lib64/libpn553_fw.so
 
 # OMX
 vendor/lib/libAlacSwDec.so
@@ -836,6 +838,7 @@ vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
 vendor/etc/perf/commonresourceconfigs.xml
+vendor/etc/perf/commonsysnodesconfigs.xml
 vendor/etc/perf/perfboostsconfig.xml
 vendor/etc/perf/perfconfigstore.xml
 vendor/etc/perf/targetconfig.xml
@@ -977,6 +980,11 @@ system_ext/lib/libqvrservice_ov9282_hvx_tuning.so
 system_ext/lib/libqvrservice.so
 system_ext/lib/libqvrservice_v4l_ov7251_hvx_tuning.so
 
+system_ext/lib64/libStereoRectifyWrapper.so
+system_ext/lib/libStereoRectifyWrapper.so
+
+system_ext/lib/libScenescape.so
+
 # RIL
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
@@ -1069,6 +1077,9 @@ vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/10_version_update_ecc_table.sql
 vendor/radio/qcril_database/qcril.db
 
 # SECCOMP policy
@@ -1318,6 +1329,7 @@ system_ext/lib/libwfdconfigutils.so
 system_ext/lib/libwfddisplayconfig.so
 system_ext/lib/libwfdmminterface.so
 system_ext/lib/libwfdmmsink.so
+system_ext/lib/libwfdnative.so
 system_ext/lib/libwfdmmsrc_system.so
 system_ext/lib/libwfdrtsp.so
 system_ext/lib/libwfdservice.so
