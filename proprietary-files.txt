@@ -520,7 +520,45 @@ vendor/etc/sap.conf
 vendor/etc/xtwifi.conf
 
 # Iris
+vendor/bin/hw/vendor.pixelworks.hardware.display.iris-service
 vendor/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service
+vendor/bin/irisConfig
+vendor/bin/irisdbgc
+vendor/bin/irisdbgd
+vendor/etc/inparm/iris6/inParm1.txt
+vendor/etc/inparm/iris6/inParm20.txt
+vendor/etc/inparm/iris6/inParm21.txt
+vendor/etc/inparm/iris6/inParm22.txt
+vendor/etc/inparm/iris6/inParm23.txt
+vendor/etc/inparm/iris6/inParm30.txt
+vendor/etc/inparm/iris6/inParm31.txt
+vendor/etc/inparm/iris6/inParm32.txt
+vendor/etc/inparm/iris6/inParm33.txt
+vendor/etc/inparm/iris6/inParm4.txt
+vendor/etc/inparm/iris6/inParm5.txt
+vendor/etc/inparm/iris6/inParm6.txt
+vendor/etc/inparm/iris6/mcfCheck.txt
+vendor/etc/inparm/iris6/mcf.txt
+vendor/etc/inparm/iris6/pxlw_iris6.mcf
+vendor/etc/inparm/irissoft/inParm10.txt
+vendor/etc/inparm/irissoft/inParm11.txt
+vendor/etc/inparm/irissoft/inParm12.txt
+vendor/etc/inparm/irissoft/inParm13.txt
+vendor/etc/inparm/irissoft/inParm14.txt
+vendor/etc/inparm/irissoft/inParm15.txt
+vendor/etc/inparm/irissoft/inParm16.txt
+vendor/etc/inparm/irissoft/inParm17.txt
+vendor/etc/inparm/irissoft/inParm18.txt
+vendor/etc/inparm/irissoft/inParm1.txt
+vendor/etc/inparm/irissoft/inParm2.txt
+vendor/etc/inparm/irissoft/inParm3.txt
+vendor/etc/inparm/irissoft/inParm4.txt
+vendor/etc/inparm/irissoft/inParm5.txt
+vendor/etc/inparm/irissoft/inParm6.txt
+vendor/etc/inparm/irissoft/inParm7.txt
+vendor/etc/inparm/irissoft/inParm8.txt
+vendor/etc/inparm/irissoft/inParm9.txt
+vendor/etc/inparm/irissoft/mcfCheck.txt
 vendor/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc
 -vendor/etc/vintf/manifest/vendor.pixelworks.hardware.display.iris-service.xml
 -vendor/etc/vintf/manifest/vendor.pixelworks.hardware.feature.irisfeature-service.xml
@@ -538,6 +576,8 @@ vendor/lib64/libpwsoftirisPCS.so
 vendor/lib64/vendor.pixelworks.hardware.display@1.0.so
 vendor/lib64/vendor.pixelworks.hardware.display@1.1.so
 vendor/lib64/vendor.pixelworks.hardware.feature@1.0.so
+
+-system/priv-app/Iris/Iris.apk
 
 # Iris Firmware
 vendor/etc/display/iris6_ccf1b.fw:vendor/firmware/iris6_ccf1b.fw
